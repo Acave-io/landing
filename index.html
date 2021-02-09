@@ -16,81 +16,15 @@
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
 
     <style type="text/css">
-        .footer.segment {
-            padding: 3em 0em;
-        }
-
-        #content {
-            min-height: 100px;
-        }
-
-        .ui.grid {
-            padding: 0 !important;
-        }
-
-        .pushable.segment {
-            margin: 0 !important;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        *:before,
-        *:after {
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            height: 100%;
-            position: relative;
-        }
-
-        .main-container {
-            min-height: 100vh;
-            /* will cover the 100% of viewport */
-            overflow: hidden;
-            display: block;
-            position: relative;
-            padding-bottom: 100px;
-            /* height of your footer */
-        }
-
-        .ui.footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-
-        ._hidden {
-            display: none;
-        }
-    </style>
-    <script>
-        $(document).ready(function () {
-            $('.ui.sidebar').sidebar({
-                context: $('.ui.pushable.segment'),
-                transition: 'overlay'
-            }).sidebar('attach events', '#mobile_item');
-            $("._hidden").hide();
-            $(".ui.dropdown").dropdown();
-        });
-
-
-
-    </script>
-
-    <style type="text/css">
         body {
             -webkit-font-smoothing: antialiased;
-                -moz-font-smoothing: grayscale;
+            -moz-font-smoothing: grayscale;
             -webkit-touch-callout: none;
-                -webkit-user-select: none;
-                    -khtml-user-select: none;
-                        -moz-user-select: none;
-                            -ms-user-select: none;
-                                user-select: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
 
         @media only screen and (min-width: 768px) {
@@ -191,7 +125,14 @@
             </p>
         </div>
     </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HF06JT9183"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'G-HF06JT9183');
+    </script>
 </body>
 
 
